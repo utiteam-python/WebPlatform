@@ -55,13 +55,13 @@ python3 --version
 ### 1. Clona il repository
 
 ```bash
-git clone https://github.com/tuo-utente/webplatform.git
+git clone https://github.com/utiteam-python/WebPlatform.git
 ```
 
 ### 2. Entra nella cartella del progetto
 
 ```bash
-cd webplatform
+cd WebPlatform
 ```
 
 ### 3. Installa le dipendenze
@@ -79,13 +79,13 @@ pip install PySide6
 Per avviare WebPlatform esegui:
 
 ```bash
-python main.py
+python webplatform.py
 ```
 
 oppure:
 
 ```bash
-python3 main.py
+python3 webplatform.py
 ```
 
 ---
