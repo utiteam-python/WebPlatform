@@ -22,7 +22,7 @@ AVAILABLE_FLAGS = [
 class FlagsDialog(QDialog):
     def __init__(self, parent=None):
         super().__init__(parent)
-        self.setWindowTitle("Ferdor Flags")
+        self.setWindowTitle("WebPlatform Flags")
         self._flags = load_flags()
 
         layout = QVBoxLayout(self)
@@ -50,7 +50,7 @@ class FlagsDialog(QDialog):
 class BrowserWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Ferdor Browser")
+        self.setWindowTitle("WebPlatform")
         self.resize(1200, 800)
 
         # Tabs manager
@@ -228,7 +228,7 @@ class BrowserWindow(QMainWindow):
         """Carica un link esterno nella scheda corrente o nuova scheda"""
         webview = self.current_webview()
         if webview:
-            if url_str.startswith("fe://"):
+            if url_str.startswith("pla://"):
                 self.load_fe_page(url_str)
             else:
                 webview.load(QUrl(url_str))
