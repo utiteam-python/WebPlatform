@@ -31,7 +31,7 @@ def render_special_page(url: QUrl):
         </style>
         </head>
         <body>
-            <h1>Ferdor Browser Home</h1>
+            <h1>Home</h1>
             <div class="card">
                 <p>Benvenuto nella home di WebPlatform!</p>
                 <p><a href="https://www.google.com">Vai su Google</a></p>
